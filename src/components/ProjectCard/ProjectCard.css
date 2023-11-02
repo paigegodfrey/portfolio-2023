@@ -2,6 +2,10 @@
   background-color: white;
 }
 
-.project-image {
+.project-card-image {
   width: 100%;
+}
+
+.project-card-body {
+  margin: 10px;
 }
