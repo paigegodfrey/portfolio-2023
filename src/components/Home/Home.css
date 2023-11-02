@@ -1,0 +1,42 @@
+.home-header {
+  color: white;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 96px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 800;
+  line-height: 72px;
+  color: white;
+}
+
+.home-header h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: tomato;
+}
+
+.btn-projects {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 10px 22px;
+  transition: 0.5s;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-projects:hover {
+  background: tomato;
+  border-color: tomato;
+}

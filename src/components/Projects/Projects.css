@@ -1,10 +1,15 @@
+.projects-container {
+  margin-bottom: 30px;
+}
+
 .projects-container h1 {
   color: white;
+  margin-bottom: 30px;
 }
 
 .projects-list {
   padding-inline: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
