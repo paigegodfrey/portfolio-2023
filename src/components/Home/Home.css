@@ -22,7 +22,7 @@
   color: tomato;
 }
 
-.btn-projects {
+.btn-resume {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -36,7 +36,7 @@
   text-decoration: none;
 }
 
-.btn-projects:hover {
+.btn-resume:hover {
   background: tomato;
   border-color: tomato;
 }

@@ -8,7 +8,7 @@ export default function Home() {
         <h1>Paige Godfrey</h1>
         <h2>Not your average software engineer</h2>
         <div>
-          <a className="btn btn-projects" href={resume} target="_blank" rel="noreferrer">
+          <a className="btn-resume" href={resume} target="_blank" rel="noreferrer">
             Resume
           </a>
         </div>
