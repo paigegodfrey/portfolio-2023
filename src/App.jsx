@@ -10,7 +10,6 @@ import './App.css';
 const Home = lazy(() => import('./components/Home/Home'));
 const Projects = lazy(() => import('./components/Projects/Projects'));
 const About = lazy(() => import('./components/About/About'));
-// const Contact = lazy(() => import('./pages/Contact'));
 const NotFound = lazy(() => import('./components/NotFound/NotFound'));
 
 const PageLayout = () => {

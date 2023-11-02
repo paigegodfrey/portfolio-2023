@@ -13,7 +13,7 @@ export default function ProjectCard({ project }) {
       <div className="project-card-body">
         <h2>{title}</h2>
         <p>{description}</p>
-        <p style={{fontWeight: '600'}}>{technologies}</p>
+        <p style={{fontWeight: '550'}}>{technologies}</p>
         <div>
           {link &&
             <a className="btn" href={link} target="_blank" rel="noreferrer" style={{ marginRight: "5px" }}>
