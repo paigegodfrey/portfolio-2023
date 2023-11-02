@@ -1,6 +1,7 @@
 .about {
   color: white;
   font-weight: 500;
+  margin-bottom: 30px;
 }
 
 .about-container {
@@ -12,7 +13,7 @@
 }
 
 .btn-resume-container {
-  margin-top: '30px';
+  margin-top: 40px;
 }
 
 .btn-resume {

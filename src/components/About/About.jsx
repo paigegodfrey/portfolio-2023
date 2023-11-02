@@ -43,7 +43,7 @@ export default function About() {
               Technical Lead, Instructor, and
               Teaching Assistant
             </span> at CodePath's software engineering program and interned
-            at Chronicled, a San Francisco blockchain startup. Refer to my resume for more details.
+            at Chronicled, a San Francisco blockchain startup.
           </p>
           <p>
             I'm very eager to continue growing as a Software Engineer and am currently
