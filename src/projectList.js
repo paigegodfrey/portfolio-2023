@@ -23,7 +23,7 @@ let projects = [
     title: "Kinfolx",
     technologies: "React • JavaScript • CSS",
     description: `Kinfolx is an Oakland-based coffee shop. Worked on a team
-                  of 4 to build improved React UI. Developed landing page and
+                  of four to build new React UI. Developed landing page and
                   optimized performance via code splitting, image compression,
                   and lazy loading.`,
     image: kinfolx,
