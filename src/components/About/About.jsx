@@ -48,8 +48,7 @@ export default function About() {
           <p>
             I'm very eager to continue growing as a Software Engineer and am currently
             looking for opportunities in <span style={{ textDecoration: 'none', color: 'tomato' }}>
-              frontend</span> and <span style={{ textDecoration: 'none', color: 'tomato' }}>
-              full stack web development.
+              frontend and  full stack web development.
             </span>
           </p>
           <div className="btn-container">
