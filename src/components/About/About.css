@@ -49,6 +49,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .btn-linkedin, button-github {
+    margin-top: 10px;
+  }
+
   .profile-image {
     min-width: 100px;
   }
