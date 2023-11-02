@@ -10,13 +10,14 @@
 
 .about-text {
   margin-right: 30px;
+  font-size: 18px;
 }
 
-.btn-resume-container {
+.btn-container {
   margin-top: 40px;
 }
 
-.btn-resume {
+.about .btn {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -30,14 +31,40 @@
   text-decoration: none;
 }
 
-.btn-resume:hover {
+.about .btn:hover {
   background: tomato;
   border-color: tomato;
 }
 
+.about .btn-resume, .btn-email, .btn-linkedin {
+  margin-right: 8px;
+}
+
 .profile-image {
-  width: 100%; 
-  height: auto; 
-  max-width: 750px; 
+  width: 100%;
+  height: auto;
+  min-width: 400px;
+  max-width: 650px;
   display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-image {
+    min-width: 100px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about-container {
+    flex-wrap: wrap;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .profile-image {
+    width: 350px;
+    margin-top: 30px;
+  }
 }

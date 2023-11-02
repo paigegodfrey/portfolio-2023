@@ -48,11 +48,22 @@ export default function About() {
           <p>
             I'm very eager to continue growing as a Software Engineer and am currently
             looking for opportunities in <span style={{ textDecoration: 'none', color: 'tomato' }}>
-              frontend and full stack</span> web development.
+              frontend</span> and <span style={{ textDecoration: 'none', color: 'tomato' }}>
+              full stack web development.
+            </span>
           </p>
-          <div className="btn-resume-container">
-            <a className="btn-resume" href={resume} target="_blank" rel="noreferrer">
+          <div className="btn-container">
+            <a className=" btn btn-resume" href={resume} target="_blank" rel="noreferrer">
               Resume
+            </a>
+            <a className="btn btn-email" href="mailto:paagodfrey@gmail.com" target="_blank" rel="noreferrer">
+              Email
+            </a>
+            <a className="btn btn-linkedin" href="https://www.linkedin.com/in/paigegodfrey/" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+            <a className="btn btn-github" href="https://github.com/paigegodfrey" target="_blank" rel="noreferrer">
+              GitHub
             </a>
           </div>
         </div>
