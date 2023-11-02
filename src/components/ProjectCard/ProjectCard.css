@@ -1,5 +1,6 @@
 .project-card {
   background-color: white;
+  color: #202020;
 }
 
 .project-card-image {
@@ -8,4 +9,23 @@
 
 .project-card-body {
   margin: 10px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 10px 22px;
+  transition: 0.5s;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  background: #202020;
+}
+
+.btn:hover {
+  background: tomato;
 }

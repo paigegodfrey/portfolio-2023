@@ -13,15 +13,15 @@ export default function ProjectCard({ project }) {
       <div className="project-card-body">
         <h2>{title}</h2>
         <p>{description}</p>
-        <p>{technologies}</p>
+        <p style={{fontWeight: '600'}}>{technologies}</p>
         <div>
           {link &&
-            <a href={link} target="_blank" rel="noreferrer" style={{marginRight: "5px"}}>
-              <button>Demo</button>
+            <a className="btn" href={link} target="_blank" rel="noreferrer" style={{ marginRight: "5px" }}>
+              Demo
             </a>}
           {github &&
-            <a href={github} target="_blank" rel="noreferrer">
-              <button>Github</button>
+            <a className="btn" href={github} target="_blank" rel="noreferrer">
+              Github
             </a>}
         </div>
       </div>

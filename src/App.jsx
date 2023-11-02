@@ -5,7 +5,6 @@ import {
   Outlet
 } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-// import Footer from './components/Footer';
 import './App.css';
 
 const Home = lazy(() => import('./components/Home/Home'));
@@ -19,7 +18,6 @@ const PageLayout = () => {
     <>
       <Navbar />
         <Outlet />
-      {/* <Footer /> */}
     </>
   );
 }

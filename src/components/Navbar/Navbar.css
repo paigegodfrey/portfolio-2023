@@ -9,7 +9,7 @@ ul {
 
 li {
   display: inline;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .navbar-nav {
@@ -22,7 +22,6 @@ nav a {
   color: white;
   font-weight: 500;
   text-decoration: none;
-  transition: all 200ms;
 }
 
 nav a {

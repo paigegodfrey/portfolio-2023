@@ -1,6 +1,4 @@
-
 import resume from "../../assets/files/Paige_Godfrey_Resume_2023.pdf";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './Home.css';
 
 export default function Home() {
