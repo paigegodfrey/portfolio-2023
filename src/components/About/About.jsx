@@ -37,7 +37,7 @@ export default function About() {
       <p>
         <span style={{ textDecoration: 'none', color: 'tomato' }}>
           Since graduating from Rithm
-        </span>, I've worked as an Instructor and
+        </span>, I've worked as an Instructor, Technical Lead, and
         Teaching Assistant at CodePath's software engineering program and interned
         at Chronicled, a San Francisco blockchain startup. Refer to my resume for more details.
       </p>
