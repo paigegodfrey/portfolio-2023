@@ -2,21 +2,18 @@
   height: 50px;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   text-decoration: none;
-}
-
-li {
-  display: inline;
-  padding-left: 30px;
-}
-
-.navbar-nav {
   margin-top: 10px;
   font-size: 20px;
   font-weight: 500;
   float: right;
+}
+
+nav li {
+  display: inline;
+  padding-left: 30px;
 }
 
 nav a {

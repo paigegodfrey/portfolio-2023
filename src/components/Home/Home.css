@@ -1,4 +1,4 @@
-.home-header {
+.home {
   color: white;
   height: 80vh;
   width: 100%;
@@ -8,10 +8,11 @@
 
 .home-header h1 {
   margin: 0;
-  font-size: 96px;
-  font-family: 'Bebas Neue', cursive;
-  font-weight: 800;
-  line-height: 72px;
+  font-family: 'arial';
+  font-weight: 600;
+  line-height: 64px;
+  font-size: 64px;
+  text-transform: uppercase;
   color: white;
 }
 
@@ -22,7 +23,7 @@
   color: tomato;
 }
 
-.btn-resume {
+.home-header .btn-resume {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -36,20 +37,31 @@
   text-decoration: none;
 }
 
-.btn-resume:hover {
+.home-header .btn-resume:hover {
   background: tomato;
   border-color: tomato;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .home-header h1 {
-    font-size: 80px;
+    font-size: 60px;
+    line-height: 60px;
+
   }
 
   .home-header h2 {
-    font-size: 24px;
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-header h1 {
+    font-size: 54px;
+    line-height: 54px;
 
   }
 
-
+  .home-header h2 {
+    font-size: 26px;
+  }
 }

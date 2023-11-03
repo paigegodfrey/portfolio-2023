@@ -3,8 +3,8 @@ import './Home.css';
 
 export default function Home() {
   return (
-    <div className="home-header">
-      <div>
+    <div className="home">
+      <div className="home-header">
         <h1>Paige Godfrey</h1>
         <h2>Not your average software engineer</h2>
         <div>
@@ -16,4 +16,3 @@ export default function Home() {
     </div>
   );
 }
-
