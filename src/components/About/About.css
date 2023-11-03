@@ -4,7 +4,7 @@
   margin-bottom: 30px;
 }
 
-.about-container {
+.about-content {
   display: flex;
 }
 
@@ -13,11 +13,11 @@
   font-size: 18px;
 }
 
-.btn-container {
+.about-content .btn-container {
   margin-top: 40px;
 }
 
-.about .btn {
+.about-content .btn {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -31,16 +31,16 @@
   text-decoration: none;
 }
 
-.about .btn:hover {
+.about-content .btn:hover {
   background: tomato;
   border-color: tomato;
 }
 
-.about .btn-resume, .btn-email, .btn-linkedin {
+.about-content .btn-resume, .btn-email, .btn-linkedin {
   margin-right: 8px;
 }
 
-.profile-image {
+.about-content .profile-image {
   width: 100%;
   height: auto;
   min-width: 400px;
@@ -49,17 +49,17 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .btn-linkedin, button-github {
+  .about-content .btn-linkedin, button-github {
     margin-top: 10px;
   }
 
-  .profile-image {
+  .about-content .profile-image {
     min-width: 100px;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  .about-container {
+  .about-content {
     flex-wrap: wrap;
   }
 
@@ -67,7 +67,7 @@
     font-size: 16px;
   }
 
-  .profile-image {
+  .about-content .profile-image {
     width: 350px;
     margin-top: 30px;
   }

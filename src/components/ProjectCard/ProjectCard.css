@@ -11,7 +11,7 @@
   margin: 10px;
 }
 
-.btn {
+.project-card-body .btn {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -26,6 +26,6 @@
   background: #202020;
 }
 
-.btn:hover {
+.project-card-body .btn:hover {
   background: tomato;
 }
