@@ -4,6 +4,10 @@
   margin-bottom: 30px;
 }
 
+.about-content-hide {
+  display: none;
+}
+
 .about-content {
   display: flex;
 }
